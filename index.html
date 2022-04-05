@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400&family=Ubuntu:wght@400;700&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a class="menu--link" href="#about"
+              ><span class="index">1. </span>About Me</a
+            >
+          </li>
+          <li>
+            <a class="menu--link" href="#work"
+              ><span class="index">2. </span>Work</a
+            >
+          </li>
+          <li>
+            <a class="menu--link" href="#contact"
+              ><span class="index">3. </span>Contact</a
+            >
+          </li>
+          <li class="menu--social">
+            <a href="https://github.com/S-triemer" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+            <a href="#"><ion-icon name="at-outline"></ion-icon></a>
+          </li>
+          <ion-icon name="close-outline" class="close--menu"></ion-icon>
+        </ul>
+        <ion-icon name="menu" class="icon--hamburger"></ion-icon>
+        <div class="cf"></div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="info-left">
+        <a href="https://github.com/S-triemer" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://twitter.com/striemer_" target="_blank"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <div class="line-left"></div>
+      </div>
+      <div class="info-right">
+        <a href="mailto:sebastian.triemer@outlook.de" class="mail"
+          >sebastian.triemer@outlook.de</a
+        >
+        <div class="line-right"></div>
+      </div>
+      <section class="section--welcome">
+        <div class="textbox--hero">
+          <span class="text--hi">Hi, my name is</span>
+          <h1 class="clr-salmon">Sebastian Triemer.</h1>
+          <h1 class="clr-bluegray">I'm a Webdeveloper.</h1>
+          <p>
+            I build beautiful, responsiv & accessible Websites and
+            Webapplications.
+          </p>
+          <a href="#" class="btn">Get in touch with me!</a>
+        </div>
+      </section>
+      <section class="section--about" id="about">
+        <h2 class="heading--section">About Me</h2>
+        <div class="flex-container">
+          <img class="img--self" src="img/portrait.jpeg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Explicabo, veniam laudantium? Dicta saepe error minus voluptates
+              expedita iusto commodi perferendis, facilis inventore accusantium
+              omnis? Quia esse numquam quisquam quaerat possimus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section--work" id="work">
+        <h2 class="heading--section">My Projects</h2>
+        <div class="project--element">
+          <div class="img--filter"></div>
+          <img
+            class="project--img"
+            src="img/233-2332677_image-500580-placeholder-transparent.jpeg"
+            alt="screenshot of the project"
+          />
+          <div class="card--project">
+            <h3>Project Name</h3>
+            <p class="project--description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+              commodi corrupti nobis ex laudantium omnis deleniti! Quisquam in
+            </p>
+            <ul class="project--technologies">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Flexbox</li>
+              <li>Responsive Design</li>
+            </ul>
+            <ul class="project--links">
+              <li>
+                <a href="#"><ion-icon name="open-outline"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section--contact" id="contact">
+        <h2 class="heading--section">Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+          molestias accusantium architecto, fugit, dolore deleniti corrupti
+          doloribus suscipit obcaecati iusto magni consectetur rerum. Itaque
+          unde odio sint eligendi numquam modi.
+        </p>
+        <a href="#" class="btn">Get in touch with me</a>
+      </section>
+      <footer>
+        <span>Sebastian Triemer &mdash; 2022</span><br />
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
