@@ -126,7 +126,8 @@ p {
   font-size: 1rem;
 }
 /******Links & Buttons*/
-.btn {
+.btn:link,
+.btn:visited {
   background: #0a1c25;
   border: 1px solid var(--clr-light-blue);
   color: var(--clr-light-blue);
@@ -136,6 +137,13 @@ p {
   margin: 3em auto;
   width: fit-content;
   border-radius: 0.2em;
+  transition: 0.2s all;
+}
+.btn:hover,
+.btn:active {
+  background: var(--clr-light-blue);
+  color: #0a1c25;
+  border: 1px solid #0a1c25;
 }
 
 /*********************************
@@ -176,6 +184,7 @@ p {
   color: #84b1cb;
   text-decoration: none;
   transition: all 0.2s;
+  font-size: 1.1rem;
 }
 
 .mail:hover,
@@ -351,9 +360,14 @@ p {
 .project--links {
   text-align: left;
 }
-.project--links li a {
-  color: var(--clr-dirty-white);
+.project--links li a:link,
+.project--links li a:visited {
+  color: rgb(132, 177, 203);
   font-size: 1.7rem;
+}
+.project--links li a:hover,
+.project--links li a:active {
+  color: #fff;
 }
 
 .project--links li {
@@ -436,6 +450,7 @@ footer a {
     background-color: #0a1c25e1;
     padding: 1em 3em;
     width: 100%;
+    margin-top: 1em;
   }
 
   nav ul {
@@ -453,7 +468,7 @@ footer a {
 
   .menu a {
     color: var(--clr-light-blue);
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-decoration: none;
     transition: all 0.5s;
     border-bottom: 1px solid transparent;
